@@ -1,0 +1,132 @@
+<!DOCTYPE htiml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun-Tech Solution</title>
+    <link rel="stylesheet" href="css/css/all.css">
+    <script src="css/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="top-navigation" id="top-navigation">
+        <div class="content-wrapper">
+            <img class="website-logo" src="images/IMG-20241206-WA0039.jpg" alt="">
+            <button class="toggle-button open" id="toggle-button" onclick="toggleSideNav()">
+                <span class="bars bar1"></span>
+                <span class="bars bar2"></span>
+                <span class="bars bar3"></span>
+            </button>
+        </div>
+        <nav class="side-navigation" id="side-navigation">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="main-platform" id="main-platform">
+        <div class="dark-bg"></div>
+        <div class="text-content">
+            <h1 class="title">Welcome To <span style="color: var(--primary-color);">Sun-Tech Enterprise</span></h1>
+            <!-- <p style="color: goldenrod;">Your one-stop solution to phone problems.</p> -->
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2 style="color: var(--primary-color-dark);">About Us </h2>
+        <p>
+             <b style="color:var(--primary-color);">Sun-Tech Enterprise </b>
+             is a mobile phone and Laptop service center were all kinds of phones, Laptop,iPad, Tablet and general gadgets are sold without any compromise, we specialize on;iPhones, Samsung, Redmi,Hauwei,Techno, infinix Nokia,Oppo and more.
+            
+        </p>
+        <h2 style="color: var(--primary-color-dark);">Our Values</h2>
+        <p>We Put Customers First
+            We work to exceed our customers expectations each day by providing  reliable services that create value for our customers. To also impact skill and quality training for apprentices and interns.</p>
+            <h2 style="color: var(--primary-color-dark);">Vision</h2>
+            <p>To be the premier aftermarket service TECH benefiting our customers, the communities in which we operate, and the environment as a whole.</p>
+    </section>
+    
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2 style="color:var(--primary-color);">OUR SERVICES</h2>
+        <div class="service-container">
+            <div class="service-item">
+                <h3>For Androids</h3>
+                <p>fixing of crack screen 
+                    Replacement of original batteries 
+                    fixing of calibrator and glass 
+                    Working on fingerprint 
+                    Softwear update on iPhones 📱 
+                    installation of application and unlocking .
+                    </p>
+            </div>
+            <div class="service-item">
+                <h3>For iphones</h3>
+                <p>fixing of Face ID 
+                    Boosting of Battery
+                    Fixing of unknown parts before Replacing the New part 
+                    Installing of (TT) True Tone 
+                    Bus swap
+                    iPad cali and screen 
+                    separation of Crack screen 
+                    Customizing of iPhone 
+                    ios update
+                   </p>
+            </div>
+            <div class="service-item">
+                <h3>Training</h3>
+                <p>Our training program equips students, interns and apprentices with hands-on skills to repair mobile phones, covering:
+                    <br> Diagnostic techniques
+                    <br> Component Replacement
+                    <br> Software troubleshooting and
+                    <br> Safety precautions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+              <div class="address"> 
+        <h4>Facebook</h4><p>Sun- Tech enterprise </p>
+        <h4>Whatsapp</h4><p>08106455352</p>
+        <h4>Tiktok</h4> <p>Sun-Tech enterprise</p> 
+        <h4>Location</h4>
+        <p>No8 Abdul Zanga way 
+            Opposite Access Bank keffi Nasarawa state,
+            J5 plaza shop 6 and 7</p>
+    </div>
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="https://formspree.io/f/mqakoypl" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Your message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <foostryer>
+        <p style="margin-left: 100px; color: var(--primary-color-dark);" >&copy; 2024 Sun-Tech Enterprise. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
